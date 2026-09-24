@@ -1,11 +1,13 @@
-const CACHE_NAME = "technician-toolkit-v1";
+const CACHE_NAME = "technician-toolkit-v2;
 
 const FILES_TO_CACHE = [
     "./",
     "./index.html",
     "./style.css",
     "./app.js",
-    "./manifest.json"
+    "./manifest.json",
+    "./icon-192.png",
+    "./icon-512.png"
 ];
 
 
