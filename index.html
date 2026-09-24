@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <meta name="theme-color"
+          content="#17202a">
+
+    <title>Technician Toolkit</title>
+
+    <link rel="stylesheet" href="style.css">
+
+<link rel="manifest" href="manifest.json">
+
+</head>
+
+<body>
+
+<header>
+
+    <h1>⚙️ Technician Toolkit</h1>
+
+    <p>Offline Technician Tools</p>
+
+</header>
+
+
+<main>
+
+    <div id="tool-area">
+
+        <h2 class="section-title">
+            🔧 Tools
+        </h2>
+
+
+        <div class="tools">
+
+            <button
+                class="tool-card"
+                onclick="showPressure()">
+
+                <span class="icon">🛢️</span>
+                Pressure
+
+            </button>
+
+
+            <button
+                class="tool-card"
+                onclick="showTemperature()">
+
+                <span class="icon">🌡️</span>
+                Temperature
+
+            </button>
+
+
+            <button
+                class="tool-card"
+                onclick="showTorque()">
+
+                <span class="icon">🔩</span>
+                Torque
+
+            </button>
+
+
+            <button
+                class="tool-card"
+                onclick="showUnitConverter()">
+
+                <span class="icon">📐</span>
+                Units
+
+            </button>
+
+
+            <button
+                class="tool-card"
+                onclick="showInspection()">
+
+                <span class="icon">📋</span>
+                Inspection
+
+            </button>
+
+
+            <button
+                class="tool-card"
+                onclick="showReferences()">
+
+                <span class="icon">📚</span>
+                References
+
+            </button>
+
+        </div>
+
+
+        <p class="offline">
+            ✓ Designed to work offline
+        </p>
+
+    </div>
+
+</main>
+
+
+<nav class="bottom-nav">
+
+    <button onclick="showHome()">
+
+        🏠
+        <span>Home</span>
+
+    </button>
+
+
+    <button onclick="showTools()">
+
+        🔧
+        <span>Tools</span>
+
+    </button>
+
+
+    <button onclick="showSaved()">
+
+        💾
+        <span>Saved</span>
+
+    </button>
+
+
+    <button onclick="showReferences()">
+
+        📚
+        <span>Reference</span>
+
+    </button>
+
+
+    <button onclick="toggleDarkMode()">
+
+        🌙
+        <span>Theme</span>
+
+    </button>
+
+</nav>
+
+
+<script src="app.js"></script>
+
+</body>
+
+</html>

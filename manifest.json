@@ -1,0 +1,11 @@
+{
+    "name": "Technician Toolkit",
+    "short_name": "Tech Toolkit",
+    "description": "Offline tools and references for technicians.",
+    "start_url": "./index.html",
+    "display": "standalone",
+    "background_color": "#f4f6f8",
+    "theme_color": "#17202a",
+    "orientation": "portrait",
+    "icons": []
+}
