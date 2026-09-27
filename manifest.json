@@ -1,23 +1,64 @@
 {
     "name": "Technician Toolkit",
     "short_name": "Tech Toolkit",
-    "description": "Offline tools and references for technicians.",
+    "description": "Offline tools for mechanical and oil & gas technicians: pressure, temperature, torque, unit conversion, inspections, and equipment tracking.",
     "start_url": "./index.html",
+    "scope": "./",
     "display": "standalone",
-    "background_color": "#f4f6f8",
+    "orientation": "portrait-primary",
+    "background_color": "#17202a",
     "theme_color": "#17202a",
-    "orientation": "portrait",
-
+    "lang": "en",
+    "dir": "ltr",
+    "categories": ["utilities", "productivity", "tools"],
     "icons": [
         {
             "src": "icon-192.png",
             "sizes": "192x192",
-            "type": "image/png"
+            "type": "image/png",
+            "purpose": "any"
         },
         {
             "src": "icon-512.png",
             "sizes": "512x512",
-            "type": "image/png"
+            "type": "image/png",
+            "purpose": "any"
+        },
+        {
+            "src": "icon-192-maskable.png",
+            "sizes": "192x192",
+            "type": "image/png",
+            "purpose": "maskable"
+        },
+        {
+            "src": "icon-512-maskable.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "maskable"
+        }
+    ],
+    "shortcuts": [
+        {
+            "name": "Pressure Converter",
+            "short_name": "Pressure",
+            "url": "./index.html#pressure",
+            "icons": [
+                {
+                    "src": "icon-192.png",
+                    "sizes": "192x192"
+                }
+            ]
+        },
+        {
+            "name": "Equipment Manager",
+            "short_name": "Equipment",
+            "url": "./index.html#equipment",
+            "icons": [
+                {
+                    "src": "icon-192.png",
+                    "sizes": "192x192"
+                }
+            ]
         }
     ]
 }
